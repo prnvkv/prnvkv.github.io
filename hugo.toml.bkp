@@ -3,23 +3,21 @@ languageCode = 'en-us'
 title = 'Pranav Kamath'
 theme = 'lowkey'
 
-# FIXED: New Hugo pagination format (fixes the warning)
-[pagination]
-  pagerSize = 5
+# This controls how many posts show on the homepage
+paginate = 5
 
 [params]
-  description = "Building high-performance backends and Micro-SaaS tools."
+  # Your bio on the homepage
+  description = "My Technical findings"
   
-  # FIXED: Point to the file we just created in assets/images/
-  favicon = "images/favicon.png"
-  
-  # Social Links
+  # Social Links (appear in footer/header)
   github = "https://github.com/prnvkv"
   linkedin = "https://www.linkedin.com/in/pranav-kamath-66060b14a"
   email = "pranavkamathkv123@gmail.com"
 
+  # Theme specific settings
   date_format = "Jan 2, 2006"
-  avatar = "images/favicon.png" # Using the same image for avatar for now
+  avatar = "images/mylinkedinpic.jpeg" # Put your photo in static/images/avatar.jpg
 
 [menu]
   [[menu.main]]

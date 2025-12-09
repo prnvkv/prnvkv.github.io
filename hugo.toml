@@ -19,7 +19,7 @@ theme = 'lowkey'
   email = "pranavkamathkv123@gmail.com"
 
   date_format = "Jan 2, 2006"
-  avatar = "images/favicon.png" # Using the same image for avatar for now
+  avatar = "images/mygithubpic.jpeg" # Using the same image for avatar for now
 
 [menu]
   [[menu.main]]

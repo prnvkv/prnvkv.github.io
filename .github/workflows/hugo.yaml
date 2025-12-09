@@ -22,8 +22,19 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          submodules: recursive  # <--- CRITICAL: Fetches your Lowkey theme
+          submodules: recursive
           fetch-depth: 0
+
+      # --- NEW STEP: Setup Node.js for Tailwind CSS ---
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      # --- NEW STEP: Install PostCSS & Tailwind ---
+      - name: Install dependencies
+        run: npm install
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2

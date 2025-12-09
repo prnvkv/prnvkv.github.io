@@ -1,0 +1,6 @@
+[submodule "themes/myportfolio"]
+	path = themes/myportfolio
+	url = git@github.com:nixentric/Lowkey-Hugo-Theme.git
+[submodule "themes/lowkey"]
+	path = themes/lowkey
+	url = https://github.com/nixentric/Lowkey-Hugo-Theme.git

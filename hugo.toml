@@ -1,0 +1,33 @@
+baseURL = 'https://prnvkv.github.io/'
+languageCode = 'en-us'
+title = 'Pranav Kamath'
+theme = 'lowkey'
+
+# This controls how many posts show on the homepage
+paginate = 5
+
+[params]
+  # Your bio on the homepage
+  description = "My Technical findings"
+  
+  # Social Links (appear in footer/header)
+  github = "https://github.com/prnvkv"
+  linkedin = "https://www.linkedin.com/in/pranav-kamath-66060b14a"
+  email = "pranavkamathkv123@gmail.com"
+
+  # Theme specific settings
+  date_format = "Jan 2, 2006"
+  avatar = "images/mylinkedinpic.jpeg" # Put your photo in static/images/avatar.jpg
+
+[menu]
+  [[menu.main]]
+    identifier = "portfolio"
+    name = "Portfolio"
+    url = "/portfolio/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "docs"
+    name = "Technical Docs"
+    url = "/docs/"
+    weight = 20
